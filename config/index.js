@@ -20,7 +20,7 @@ export const config = {
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: [oJDRn653jn6EJxDe0XrUEkUeC2G4]
+  USERS: []
     {
       // 想要发送的人的名字
       name: "爱笑的向日葵",
@@ -58,17 +58,16 @@ export const config = {
       ]
     },
     {
-      name: "爱笑的向日葵",
-      id: "oJDRn653jn6EJxDe0XrUEkUeC2G4",
-      useTemplateId: "XLbv9tvBQ1O2dYIJ0_xLmhiBmZSF3Yj5GD1GzhjXFgc",
-      province: "贵州",
-      city: "贵阳",
-      horoscopeDate: '12-25',
-      horoscopeDateType: '今日',
+      name: "老婆1",
+      id: "",
+      useTemplateId: "",
+      province: "",
+      city: "",
+      horoscopeDate: '',
+      horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
-      festivals: [{"type": "生日", "name": "向日葵", "year": "2000", "date": "12-25"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "08-11"},],
-      customizedDateList: [{"keyword": "marry_day", date: "2022-09-09"},]
+      festivals: [],
+      customizedDateList: []
     },
     {
       name: "老婆2",
